@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/s01-oob/s01-oob.iml" filepath="$PROJECT_DIR$/s01-oob/s01-oob.iml" />
       <module fileurl="file://$PROJECT_DIR$/s02-api/s02-api.iml" filepath="$PROJECT_DIR$/s02-api/s02-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/s03-opp-app/s03-opp-app.iml" filepath="$PROJECT_DIR$/s03-opp-app/s03-opp-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s04-oop/s04-oop.iml" filepath="$PROJECT_DIR$/s04-oop/s04-oop.iml" />
     </modules>
   </component>
 </project>
