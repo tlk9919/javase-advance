@@ -3,12 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/javase-advance-review.iml" filepath="$PROJECT_DIR$/javase-advance-review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s01-api/s01-api.iml" filepath="$PROJECT_DIR$/s01-api/s01-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/s01-oob/s01-oob.iml" filepath="$PROJECT_DIR$/s01-oob/s01-oob.iml" />
-      <module fileurl="file://$PROJECT_DIR$/s02-api/s02-api.iml" filepath="$PROJECT_DIR$/s02-api/s02-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/s03-opp-app1/s03-opp-app1.iml" filepath="$PROJECT_DIR$/s03-opp-app1/s03-opp-app1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/s04-opp-app2/s04-opp-app2.iml" filepath="$PROJECT_DIR$/s04-opp-app2/s04-opp-app2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/s05-opp-app3/s05-opp-app3.iml" filepath="$PROJECT_DIR$/s05-opp-app3/s05-opp-app3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/so6-api-app2/so6-api-app2.iml" filepath="$PROJECT_DIR$/so6-api-app2/so6-api-app2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s02-opp-app1/s02-opp-app1.iml" filepath="$PROJECT_DIR$/s02-opp-app1/s02-opp-app1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s02-opp-app2/s02-opp-app2.iml" filepath="$PROJECT_DIR$/s02-opp-app2/s02-opp-app2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s02-opp-app3/s02-opp-app3.iml" filepath="$PROJECT_DIR$/s02-opp-app3/s02-opp-app3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s03-api-app1/s03-api-app1.iml" filepath="$PROJECT_DIR$/s03-api-app1/s03-api-app1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s03-app2/s03-app2.iml" filepath="$PROJECT_DIR$/s03-app2/s03-app2.iml" />
     </modules>
   </component>
 </project>
