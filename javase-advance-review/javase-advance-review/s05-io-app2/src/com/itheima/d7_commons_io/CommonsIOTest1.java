@@ -17,6 +17,6 @@ public class CommonsIOTest1 {
 
 //         Java提供的原生的一行代码搞定很多事情
         Files.copy(Path.of("s05-io-app2\\src\\itheima01.txt"), Path.of("s05-io-app2\\src\\b.txt"));
-        System.out.println(Files.readString(Path.of("s05-io-app2\\src\\itheima01.txt")));
+      //  System.out.println(Files.readString(Path.of("s05-io-app2\\src\\itheima01.txt")));
     }
 }
