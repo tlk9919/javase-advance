@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/s03-app2/s03-app2.iml" filepath="$PROJECT_DIR$/s03-app2/s03-app2.iml" />
       <module fileurl="file://$PROJECT_DIR$/s04-collection-app/s04-collection-app.iml" filepath="$PROJECT_DIR$/s04-collection-app/s04-collection-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/s04-map-stream-app/s04-map-stream-app.iml" filepath="$PROJECT_DIR$/s04-map-stream-app/s04-map-stream-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s05-file-io-app/s05-file-io-app.iml" filepath="$PROJECT_DIR$/s05-file-io-app/s05-file-io-app.iml" />
     </modules>
   </component>
 </project>
