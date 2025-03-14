@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/s05-file-io-app/s05-file-io-app.iml" filepath="$PROJECT_DIR$/s05-file-io-app/s05-file-io-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/s05-io-app2/s05-io-app2.iml" filepath="$PROJECT_DIR$/s05-io-app2/s05-io-app2.iml" />
       <module fileurl="file://$PROJECT_DIR$/s05-properties-xml-log-app/s05-properties-xml-log-app.iml" filepath="$PROJECT_DIR$/s05-properties-xml-log-app/s05-properties-xml-log-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s06-net-app/s06-net-app.iml" filepath="$PROJECT_DIR$/s06-net-app/s06-net-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/s06-thread-app/s06-thread-app.iml" filepath="$PROJECT_DIR$/s06-thread-app/s06-thread-app.iml" />
     </modules>
   </component>
