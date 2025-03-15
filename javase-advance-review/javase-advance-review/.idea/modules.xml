@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/s05-properties-xml-log-app/s05-properties-xml-log-app.iml" filepath="$PROJECT_DIR$/s05-properties-xml-log-app/s05-properties-xml-log-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/s06-net-app/s06-net-app.iml" filepath="$PROJECT_DIR$/s06-net-app/s06-net-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/s06-thread-app/s06-thread-app.iml" filepath="$PROJECT_DIR$/s06-thread-app/s06-thread-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s07-junit-reflect-annotation-proxy-app/s07-junit-reflect-annotation-proxy-app.iml" filepath="$PROJECT_DIR$/s07-junit-reflect-annotation-proxy-app/s07-junit-reflect-annotation-proxy-app.iml" />
     </modules>
   </component>
 </project>
