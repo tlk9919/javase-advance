@@ -1,5 +1,6 @@
 package com.itheima.d4_collection_set;
 
+import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -16,13 +17,13 @@ public class SetTest4 {
         System.out.println(set1);
 
         // TreeSet就近选择自己自带的比较器对象进行排序
-//        Set<Student> students = new TreeSet<>(new Comparator<Student>() {
-//            @Override
-//            public int compare(Student o1, Student o2) {
-//                // 需求：按照身高升序排序
-//                return Double.compare(o1.getHeight() , o2.getHeight());
-//            }
-//        });
+/*        Set<Student> students = new TreeSet<>(new Comparator<Student>() {
+            @Override
+            public int compare(Student o1, Student o2) {
+                // 需求：按照身高升序排序
+                return Double.compare(o1.getHeight() , o2.getHeight());
+            }
+        });*/
         Set<Student> students = new TreeSet<>(( o1,  o2) ->  Double.compare(o1.getHeight() , o2.getHeight()));
         students.add(new Student("蜘蛛精",23, 169.7));
         students.add(new Student("紫霞",22, 169.8));

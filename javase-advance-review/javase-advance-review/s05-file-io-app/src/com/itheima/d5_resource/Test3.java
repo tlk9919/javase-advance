@@ -9,9 +9,9 @@ public class Test3 {
     public static void main(String[] args)  {
         try (
                 // 1、创建一个字节输入流管道与源文件接通
-                InputStream is = new FileInputStream("file-io-app\\src\\itheima03.txt");
+                InputStream is = new FileInputStream("s05-file-io-app\\src\\itheima03.txt");
                 // 2、创建一个字节输出流管道与目标文件接通。
-                OutputStream os = new FileOutputStream("file-io-app\\src\\itheima03copy.txt");
+                OutputStream os = new FileOutputStream("s05-file-io-app\\src\\itheima03copy.txt");
 
                 // 注意：这里只能放置资源对象。（流对象）
                 // int age = 21;

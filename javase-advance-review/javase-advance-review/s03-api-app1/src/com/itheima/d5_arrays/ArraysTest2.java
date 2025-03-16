@@ -19,7 +19,7 @@ public class ArraysTest2 {
         // 2、public static <T> void sort(T[] arr, Comparator<? super T> c)
         // 参数一：需要排序的数组
         // 参数二：Comparator比较器对象（用来制定对象的比较规则）
-        Arrays.sort(students, new Comparator<Student>() {
+        Arrays.sort(students,new Comparator<Student>() {
             @Override
             public int compare(Student o1, Student o2) {
                 // 制定比较规则了：左边对象 o1   右边对象 o2
@@ -32,10 +32,10 @@ public class ArraysTest2 {
 //                    return -1;
 //                }
 //                return 0; // 升序
-                 return Double.compare(o1.getHeight(), o2.getHeight()); // 升序
+                return Double.compare(o1.getHeight(), o2.getHeight()); // 升序
                 // return Double.compare(o2.getHeight(), o1.getHeight()); // 降序
             }
-        });
+    });
         System.out.println(Arrays.toString(students));
 
 

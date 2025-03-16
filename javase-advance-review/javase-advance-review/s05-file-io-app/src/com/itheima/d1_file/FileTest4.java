@@ -21,7 +21,7 @@ public class FileTest4 {
             System.out.println(file.getAbsolutePath());
         }
 
-        File f = new File("D:/resource/aaa");
+        File f = new File("D:/resource");
         File[] files1 = f.listFiles();
         System.out.println(Arrays.toString(files1));
     }

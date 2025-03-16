@@ -55,15 +55,15 @@ public class CollectionTest1 {
         // 倒着去删除也是可以的。
 
         // 需求：找出集合中全部带“李”的名字，并从集合中删除。
-//        Iterator<String> it = list.iterator();
-//        while (it.hasNext()){
-//            String name = it.next();
-//            if(name.contains("李")){
-//                // list.remove(name); // 并发修改异常的错误。
-//                it.remove(); // 删除迭代器当前遍历到的数据，每删除一个数据后，相当于也在底层做了i--
-//            }
-//        }
-//        System.out.println(list);
+        Iterator<String> it = list.iterator();
+        while (it.hasNext()){
+            String name = it.next();
+            if(name.contains("李")){
+                // list.remove(name); // 并发修改异常的错误。
+                it.remove(); // 删除迭代器当前遍历到的数据，每删除一个数据后，相当于也在底层做了i--
+            }
+        }
+        System.out.println(list);
 
         // 使用增强for循环遍历集合并删除数据，没有办法解决bug.
 //        for (String name : list) {

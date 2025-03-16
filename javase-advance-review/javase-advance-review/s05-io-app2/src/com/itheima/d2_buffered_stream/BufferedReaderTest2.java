@@ -10,7 +10,7 @@ import java.io.Reader;
 public class BufferedReaderTest2 {
     public static void main(String[] args)  {
         try (
-                Reader fr = new FileReader("io-app2\\src\\itheima04.txt");
+                Reader fr = new FileReader("s05-io-app2\\src\\itheima04.txt");
                 // 创建一个字符缓冲输入流包装原始的字符输入流
                 BufferedReader br = new BufferedReader(fr);
         ){

@@ -13,7 +13,7 @@ public class FileWriterTest2 {
                 // 覆盖管道
                 // Writer fw = new FileWriter("io-app2/src/itheima02out.txt");
                 // 追加数据的管道
-                Writer fw = new FileWriter("io-app2/src/itheima02out.txt", true);
+                Writer fw = new FileWriter("s05-io-app2/src/itheima02out.txt", true);
                 ){
             // 1、public void write(int c):写一个字符出去
             fw.write('a');

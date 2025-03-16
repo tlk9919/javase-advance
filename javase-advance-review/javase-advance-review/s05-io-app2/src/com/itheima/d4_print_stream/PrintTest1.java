@@ -15,7 +15,7 @@ public class PrintTest1 {
 //                PrintStream ps =
 //                        new PrintStream("io-app2/src/itheima08.txt");
                 PrintWriter ps =
-                        new PrintWriter(new FileOutputStream("io-app2/src/itheima08.txt", true));
+                        new PrintWriter(new FileOutputStream("s05-io-app2/src/itheima08.txt", true));
                 ){
                 ps.println(97);
                 ps.println('a');

@@ -10,7 +10,7 @@ import java.io.Writer;
 public class BufferedWriterTest3 {
     public static void main(String[] args) {
         try (
-                Writer fw = new FileWriter("io-app2/src/itheima05out.txt", true);
+                Writer fw = new FileWriter("s05-io-app2/src/itheima05out.txt", true);
                 // 创建一个字符缓冲输出流管道包装原始的字符输出流
                 BufferedWriter bw = new BufferedWriter(fw);
         ){

@@ -6,11 +6,11 @@ import java.io.*;
 public class BufferedInputStreamTest1 {
     public static void main(String[] args) {
         try (
-                InputStream is = new FileInputStream("io-app2/src/itheima01.txt");
+                InputStream is = new FileInputStream("s05-io-app2/src/itheima01.txt");
                 // 1、定义一个字节缓冲输入流包装原始的字节输入流
                 InputStream bis = new BufferedInputStream(is);
 
-                OutputStream os = new FileOutputStream("io-app2/src/itheima01_bak.txt");
+                OutputStream os = new FileOutputStream("s05-io-app2/src/itheima01_bak.txt");
                 // 2、定义一个字节缓冲输出流包装原始的字节输出流
                 OutputStream bos = new BufferedOutputStream(os);
         ){
